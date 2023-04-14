@@ -1,13 +1,9 @@
-/*
-  Quanti anni ha?
-  Scrivi un programma che dato l'anno corrente e un anno di nascita determini:
-    - l'età della persona,
-    - quanti anni sono necessari per raggiungere i 100
-  Restituisca in output entrambi i risultati.
+var year = 2018;
+var yearBirth = 1991;
 
-  Esempio:
-    Input: anno corrente = 2018, anno di nascita = 1991
-    Ouput: età = 27, anni mancanti = 73
+var yearTotal = 100;
+var yearsPerson =(year - yearBirth);
 
-  http://www.imparareaprogrammare.it
-*/
+var yearMissing =(yearTotal - yearsPerson);
+
+console.log ('${year} lanno corente ${yearBirth}anno di nascita ${yearsPerson}eta della persona ${yearTotal} il totale degli anni che deve arrivare la persona ${yearMissing}la differenza per arrivare a una eta di cento anni.');
